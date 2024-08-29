@@ -1,12 +1,12 @@
-<p align="center"><img src="https://raw.githubusercontent.com/joon610/justreact-ui/main/logo.svg"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/joon610/react-prism-ui/main/logo.svg"></p>
 
 <p align="center">
-  <!-- <a href="https://github.com/arvindra1/justreact-ui><img src="https://github.com/joon610/justreact-ui/workflows/React%20Card%20Component%20CI/badge.svg" alt="Build Status"></a>
-  <a href="https://github.com/joon610/justreact-ui"><img src="https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg" alt="myPc"></a>
-  <a href="https://github.com/joon610/justreact-ui"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="license"></a> -->
+  <!-- <a href="https://github.com/arvindra1/react-prism-ui><img src="https://github.com/joon610/react-prism-ui/workflows/React%20Card%20Component%20CI/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/joon610/react-prism-ui"><img src="https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg" alt="myPc"></a>
+  <a href="https://github.com/joon610/react-prism-ui"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="license"></a> -->
 </p>
 
-<h1 align="center">justreact-ui</h1>
+<h1 align="center">react-prism-ui</h1>
 
 ## Don't Support this package
 
@@ -17,12 +17,8 @@
 ## Install
 
 ```
-  npm i justreact-ui
+  npm i react-prism-ui
 ```
-
-## Demo & Examples
-
-[Demo](https://arvindra1.github.io/justreact-ui/)
 
 ## CARD-1
 
@@ -31,7 +27,7 @@
 ### glass, glassOption
 
 ```js
-  import { Card } from 'justreact-ui';
+  import { Card } from 'react-prism-ui';
 
   // default blur:4, transparency:0.2
   const NewCard = () => <Card glass><div>HelloWorld</div></Card>);
@@ -42,14 +38,14 @@
 ### style
 
 ```js
-  import Card from 'justreact-ui';
+  import Card from 'react-prism-ui';
   const NewCard = () => <Card style={{"color":"red"}}><div>HelloWorld</div></Card>);
 ```
 
 ### background
 
 ```js
-  import Card from 'justreact-ui';
+  import Card from 'react-prism-ui';
   const NewCard = () => <Card background={"red"}><div>HelloWorld</div></Card>);
 ```
 
@@ -58,7 +54,7 @@
 ```js
   type hoverMoveType = 'up' | 'left' | `right` | `down` | 'zoom'
 
-  import Card from 'justreact-ui';
+  import Card from 'react-prism-ui';
   const NewCard = () => <Card hoverType={"zoom"}><div>HelloWorld</div></Card>);
 ```
 
@@ -66,7 +62,7 @@
 
 ```js
 
-  import Card from 'justreact-ui';
+  import Card from 'react-prism-ui';
   const NewCard = () => <Card bordered><div>HelloWorld</div></Card>);
 ```
 
@@ -74,7 +70,7 @@
 
 ```js
 
-  import Card from 'justreact-ui';
+  import Card from 'react-prism-ui';
   const NewCard = () => <Card outlined><div>HelloWorld</div></Card>);
 ```
 
@@ -83,7 +79,7 @@
 ## ColorProvider
 
 ```js
-import { ColorProvider } from "justreact-ui";
+import { ColorProvider } from "react-prism-ui";
 
 // default blur:4, transparency:0.2
 const App = () => {
@@ -96,7 +92,7 @@ const App = () => {
 ### useColor()
 
 ```js
-import { useColor, Card } from "justreact-ui";
+import { useColor, Card } from "react-prism-ui";
 
 const component = () => {
   const { color, handleColorChange } = useColor();
@@ -119,7 +115,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ColorProvider } from 'justreact-ui';
+import { ColorProvider } from 'react-prism-ui';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -135,7 +131,7 @@ reportWebVitals();
 ### App.js
 ```bash
 import './App.css';
-import { Card, ImageMag, useColor } from 'justreact-ui';
+import { Card, ImageMag, useColor } from 'react-prism-ui';
 
 function App() {
   const { color, handleColorChange } = useColor();
@@ -160,13 +156,13 @@ function App() {
 export default App;
 ```
 
-# Live-Preview
+# Live-Preview Demo & Examples
 
 Visit [Spotify-Clone](https://anuxr4g-spotify-clone-react.vercel.app/) for live preview.
 
 
 
-# justreact-ui
+# react-prism-ui
 
 ## Magnify-image (e-commerce)
 
@@ -177,7 +173,7 @@ Visit [Spotify-Clone](https://anuxr4g-spotify-clone-react.vercel.app/) for live 
 600px is the default width and height.
 
 ```js
-import { Card, ImageMag } from "justreact-ui";
+import { Card, ImageMag } from "react-prism-ui";
   const NewCard = () => <ImageMag src="path/url" alt="alternative" width={600} height={600} >);
 ```
 #
