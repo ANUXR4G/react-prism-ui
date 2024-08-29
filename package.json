@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arvindra1/justreact-ui.git"
+    "url": "git+https://github.com/ANUXR4G/react-prism-ui.git"
   },
   "author": "anuxr4g",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arvindra1/justreact-ui/issues"
+    "url": "https://github.com/ANUXR4G/react-prism-ui.git"
   },
-  "homepage": "https://github.com/arvindra1/justreact-ui#readme",
+  "homepage": "https://github.com/ANUXR4G/react-prism-ui.git#readme",
   "peerDependencies": {
     "@emotion/react": "^11.1.4",
     "@types/react": ">=17.0.0",
