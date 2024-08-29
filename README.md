@@ -1,5 +1,3 @@
-<p align="center"><img src="https://raw.githubusercontent.com/joon610/react-prism-ui/main/logo.svg"></p>
-
 <p align="center">
   <!-- <a href="https://github.com/arvindra1/react-prism-ui><img src="https://github.com/joon610/react-prism-ui/workflows/React%20Card%20Component%20CI/badge.svg" alt="Build Status"></a>
   <a href="https://github.com/joon610/react-prism-ui"><img src="https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg" alt="myPc"></a>
